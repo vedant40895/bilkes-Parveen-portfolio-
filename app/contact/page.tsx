@@ -147,14 +147,9 @@ export default function ContactPage() {
             {/* Contact Info & Photo */}
             <div className="space-y-8">
               {/* Professional Photo */}
-              <div className="aspect-[4/5] relative overflow-hidden rounded-lg shadow-lg">
-                <Image
-                  src="/placeholder.svg?height=600&width=480"
-                  alt="Bilkes Perveen Professional Photo"
-                  fill
-                  className="object-cover"
-                />
-              </div>
+              {/* <div className="aspect-[4/5] relative overflow-hidden rounded-lg shadow-lg"> */}
+                
+              {/* </div> */}
 
               {/* Contact Information */}
               <Card>
@@ -204,6 +199,7 @@ export default function ContactPage() {
                       href="#"
                       className="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-3 rounded-full hover:scale-110 transition-transform"
                     >
+                      
                       <Instagram className="h-6 w-6" />
                     </a>
                     <a
