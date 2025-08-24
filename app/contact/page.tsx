@@ -23,7 +23,7 @@ export default function ContactPage() {
     if (!form) return;
     const formData = new FormData(form);
     try {
-      const response = await fetch("https://formspree.io/f/mvgbpqav", {
+      const response = await fetch("https://formspree.io/f/mrbazldo", {
         method: "POST",
         body: formData,
         headers: {
@@ -165,14 +165,14 @@ export default function ContactPage() {
                     <Mail className="h-5 w-5 text-royal-blue mr-3" />
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-gray-600">contact@bilkesperveen.com</p>
+                      <p className="text-gray-600">bilkesperveen@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 text-royal-blue mr-3" />
                     <div>
                       <p className="font-semibold">Phone</p>
-                      <p className="text-gray-600">+91 98765 43210</p>
+                      <p className="text-gray-600">+91 79809 01539</p>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -200,13 +200,17 @@ export default function ContactPage() {
                 <CardContent>
                   <div className="flex space-x-4">
                     <a
-                      href="#"
+                      href="https://www.instagram.com/bilkesperveen?igsh=ejYyMHlkdnh4cmMw"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-3 rounded-full hover:scale-110 transition-transform"
                     >
                       <Instagram className="h-6 w-6" />
                     </a>
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/in/bilkes-perveen-2536a3177/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="bg-blue-600 text-white p-3 rounded-full hover:scale-110 transition-transform"
                     >
                       <Linkedin className="h-6 w-6" />
@@ -233,13 +237,26 @@ export default function ContactPage() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {Array.from({ length: 12 }, (_, i) => (
+            {[
+              "IMG-20250818-WA0007.jpg",
+              "IMG-20250818-WA0025.jpg",
+              "IMG-20250818-WA0009.jpg",
+              "IMG-20250818-WA0034.jpg",
+              "IMG-20250818-WA0044.jpg",
+              "IMG-20250818-WA0014.jpg",
+              "IMG-20250818-WA0060.jpg",
+              "IMG-20250818-WA0016.jpg",
+              "IMG-20250818-WA0018.jpg",
+              "IMG-20250818-WA0020.jpg",
+              "IMG-20250818-WA0051.jpg",
+              "IMG-20250818-WA0023.jpg"
+            ].map((img, i) => (
               <div
                 key={i}
                 className="aspect-square relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer"
               >
                 <Image
-                  src={`/placeholder.svg?height=300&width=300&text=Post${i + 1}`}
+                  src={`/${img}`}
                   alt={`Instagram post ${i + 1}`}
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
@@ -253,7 +270,7 @@ export default function ContactPage() {
               asChild
               className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600"
             >
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/bilkesperveen?igsh=ejYyMHlkdnh4cmMw" target="_blank" rel="noopener noreferrer">
                 <Instagram className="h-5 w-5 mr-2" />
                 Follow on Instagram
               </a>

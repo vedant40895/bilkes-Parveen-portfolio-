@@ -34,77 +34,77 @@ export default function GalleryPage() {
     },
     {
       id: 2,
-      src: "/placeholder.svg",
+      src: "/IMG-20250818-WA0007.jpg",
       category: "events",
       title: "Corporate Event",
       description: "Hosting corporate conference",
     },
     {
       id: 3,
-      src: "/placeholder.svg",
+      src: "/IMG-20250818-WA0008.jpg",
       category: "professional",
       title: "Business Portrait",
       description: "Professional headshot session",
     },
     {
       id: 4,
-      src: "/placeholder.svg",
+      src: "/IMG-20250818-WA0009.jpg",
       category: "modeling",
       title: "Calendar Shoot",
       description: "West Bengal Calendar 2021",
     },
     {
       id: 5,
-      src: "/placeholder.svg",
+      src: "/IMG-20250818-WA0010.jpg",
       category: "bts",
       title: "Behind the Scenes",
       description: "Candid moments during shoot",
     },
     {
       id: 6,
-      src: "/portfolio-1 .jpg",
+      src: "/IMG-20250818-WA0012.jpg",
       category: "lifestyle",
       title: "Lifestyle Portrait",
       description: "Natural lifestyle photography",
     },
     {
       id: 7,
-      src: "/placeholder.svg?height=400&width=600",
+      src: "/IMG-20250818-WA0014.jpg",
       category: "events",
       title: "ISL Presentation",
       description: "Sports presenting at ISL",
     },
     {
       id: 8,
-      src: "/placeholder.svg?height=600&width=400",
+      src: "/IMG-20250818-WA0015.jpg",
       category: "modeling",
       title: "Brand Campaign",
       description: "Luxury brand collaboration",
     },
     {
       id: 9,
-      src: "/placeholder.svg?height=500&width=500",
+      src: "/IMG-20250818-WA0016.jpg",
       category: "professional",
       title: "Speaking Event",
       description: "Keynote speaking engagement",
     },
     {
       id: 10,
-      src: "/placeholder.svg?height=600&width=400",
+      src: "/IMG-20250818-WA0018.jpg",
       category: "bts",
       title: "Preparation",
       description: "Getting ready for shoot",
     },
     {
       id: 11,
-      src: "/placeholder.svg?height=400&width=600",
+      src: "/IMG-20250818-WA0020.jpg",
       category: "lifestyle",
       title: "Casual Moments",
       description: "Relaxed lifestyle shots",
     },
     {
       id: 12,
-      src: "/placeholder.svg?height=700&width=400",
+      src: "/IMG-20250818-WA0022.jpg",
       category: "modeling",
       title: "Fashion Week",
       description: "Runway and fashion week",
@@ -216,7 +216,7 @@ export default function GalleryPage() {
                       />
                     ) : (
                       <Image
-                        src={image.src || "/placeholder.svg"}
+                        src={image.src || "/IMG-20250818-WA0007.jpg"}
                         alt={image.title}
                         width={400}
                         height={600}
@@ -251,7 +251,7 @@ export default function GalleryPage() {
               <X className="h-6 w-6" />
             </Button>
             <Image
-              src={lightboxImage || "/placeholder.svg"}
+              src={lightboxImage || "/IMG-20250818-WA0007.jpg"}
               alt="Gallery image"
               width={800}
               height={1000}
