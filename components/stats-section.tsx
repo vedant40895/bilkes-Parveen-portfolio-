@@ -1,18 +1,18 @@
 export function StatsSection() {
   const stats = [
     {
-      number: "20+",
+      number: "100+",
       label: "Brand Collaborations",
       description: "Successful partnerships with leading brands",
     },
     {
       number: "2021",
       label: "Calendar Cover Model",
-      description: "Face of West Bengal Calendar",
+      description: "Face of West Bengal Calendar Cover",
     },
     {
-      number: "2",
-      label: "Companies Founded",
+      number: "1",
+      label: "Company Founded",
       description: "Successful entrepreneurial ventures",
     },
     {

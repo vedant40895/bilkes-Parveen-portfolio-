@@ -12,7 +12,7 @@ export function IntroSection() {
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               As a multifaceted professional, I bring together the worlds of entrepreneurship, image coaching, modeling,
               and public speaking. My journey spans from being the Face of West Bengal Calendar Cover Model 2021 to
-              founding successful companies and coaching individuals to unlock their full potential.
+              founding a successful company and coaching individuals to unlock their full potential.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               With experience as a former Sports Presenter at ISL and founder of multiple ventures, I understand the
@@ -29,7 +29,7 @@ export function IntroSection() {
             <div className="relative">
               <div className="aspect-[4/5] relative overflow-hidden rounded-lg shadow-2xl">
                 <Image
-                  src="/placeholder.svg?height=600&width=480"
+                  src="/IMG-20250818-WA0311.jpg?height=600&width=480"
                   alt="Bilkes Perveen Portrait"
                   fill
                   className="object-cover"

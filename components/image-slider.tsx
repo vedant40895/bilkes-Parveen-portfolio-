@@ -10,28 +10,28 @@ export function ImageSlider() {
 
   const slides = [
     {
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/IMG-20250818-WA0022.jpg?height=600&width=800",
       title: "Modeling Portfolio",
       description: "Professional fashion and commercial modeling work",
     },
     {
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/new.png?height=600&width=800",
       title: "Event Hosting",
       description: "Emcee and hosting at corporate and entertainment events",
     },
     {
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/IMG-20250818-WA0135.jpg?height=600&width=800",
       title: "Speaking Engagements",
       description: "Motivational speaking and industry presentations",
     },
     {
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/IMG-20250818-WA0232.jpg?height=600&width=800",
       title: "Brand Collaborations",
       description: "Strategic partnerships with leading brands",
     },
     {
-      image: "/placeholder.svg?height=600&width=800",
-      title: "Coaching Sessions",
+      image: "/IMG-20250818-WA0042.jpg?height=600&width=800",
+      title: "Image Coaching Sessions",
       description: "Personal image coaching and development programs",
     },
   ]
@@ -100,7 +100,7 @@ export function ImageSlider() {
             {slides.map((_, index) => (
               <button
                 key={index}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                className={`w-3 h-3 rounded-full transition-all duration-500 ${
                   index === currentSlide ? "bg-royal-blue" : "bg-gray-300"
                 }`}
                 onClick={() => setCurrentSlide(index)}

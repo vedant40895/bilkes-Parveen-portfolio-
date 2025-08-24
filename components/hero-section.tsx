@@ -8,13 +8,13 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/placeholder.svg?height=1080&width=1920')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/FB_IMG_1756046480263.jpg?height=1080&width=1920')`,
         }}
       />
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
-        <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-6 animate-fade-in">Bilkes Perveen</h1>
+        <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-7 animate-fade-in">Bilkes Perveen</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
           Entrepreneur | Image Coach | Model | Emcee | Influencer | Speaker
         </p>
