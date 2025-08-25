@@ -12,27 +12,27 @@ export function ImageSlider() {
     {
       image: "/IMG-20250818-WA0022.jpg?height=600&width=800",
       title: "Modeling Portfolio",
-      description: "Professional fashion and commercial modeling work",
+      // description: "Professional fashion and commercial modeling work",
     },
     {
       image: "/new.png?height=600&width=800",
       title: "Event Hosting",
-      description: "Emcee and hosting at corporate and entertainment events",
+      // description: "Emcee and hosting at corporate and entertainment events",
     },
     {
       image: "/IMG-20250818-WA0135.jpg?height=600&width=800",
       title: "Speaking Engagements",
-      description: "Motivational speaking and industry presentations",
+      // description: "Motivational speaking and industry presentations",
     },
     {
       image: "/IMG-20250818-WA0232.jpg?height=600&width=800",
       title: "Brand Collaborations",
-      description: "Strategic partnerships with leading brands",
+      // description: "Strategic partnerships with leading brands",
     },
     {
       image: "/IMG-20250818-WA0042.jpg?height=600&width=800",
       title: "Image Coaching Sessions",
-      description: "Personal image coaching and development programs",
+      // description: "Personal image coaching and development programs",
     },
   ]
 
@@ -73,7 +73,6 @@ export function ImageSlider() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             <div className="absolute bottom-8 left-8 text-white">
               <h3 className="font-playfair text-3xl font-bold mb-2">{slides[currentSlide].title}</h3>
-              <p className="text-lg opacity-90">{slides[currentSlide].description}</p>
             </div>
           </div>
 
@@ -84,7 +83,7 @@ export function ImageSlider() {
             className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white"
             onClick={prevSlide}
           >
-            <ChevronLeft className="h-6 w-6" />
+            <ChevronLeft className="h-2 w-2" />
           </Button>
           <Button
             variant="outline"

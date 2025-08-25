@@ -55,7 +55,7 @@ export default function GalleryPage() {
     },
     {
       id: 5,
-      src: "/IMG-20250818-WA0010.jpg",
+      src: "https://res.cloudinary.com/dtlorxa23/image/upload/v1756105502/cover_awg8ji.jpg",
       category: "bts",
       title: "Behind the Scenes",
       description: "Candid moments during shoot",
