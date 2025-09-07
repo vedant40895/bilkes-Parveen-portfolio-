@@ -24,7 +24,7 @@ export default function PortfolioPage() {
       category: "modeling",
       title: "Fashion Editorial Shoot",
       description: "High-fashion editorial for leading magazine",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/IMG-20250818-WA0278.jpg",
       type: "image",
     },
     {
