@@ -17,7 +17,7 @@ export default function ServicesPage() {
         "Confidence building exercises",
       ],
       icon: User,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/IMG-20250818-WA0132.jpg?height=400&width=600",
       duration: "2-3 hours per session",
       price: "Custom pricing",
     },
@@ -32,7 +32,7 @@ export default function ServicesPage() {
         "Personal branding workshop",
       ],
       icon: Star,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/IMG-20250818-WA0094.jpg?height=400&width=600",
       duration: "4-6 week program",
       price: "Package deals available",
     },
@@ -47,7 +47,7 @@ export default function ServicesPage() {
         "Audience engagement strategies",
       ],
       icon: Mic,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/IMG-20250818-WA0130.jpg?height=400&width=600",
       duration: "Flexible scheduling",
       price: "Group and individual rates",
     },
@@ -62,7 +62,7 @@ export default function ServicesPage() {
         "Crisis communication prep",
       ],
       icon: Camera,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/IMG-20250818-WA0083.jpg?height=400&width=600",
       duration: "Ongoing consultation",
       price: "Corporate packages available",
     },
@@ -205,7 +205,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-playfair text-4xl md:text-5xl font-bold text-black mb-4">Client Success Stories</h2>
@@ -237,7 +237,7 @@ export default function ServicesPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-rose-gold to-royal-blue">

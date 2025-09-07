@@ -18,31 +18,22 @@ export default function AchievementsPage() {
       subtitle: "P&C Art Arena",
       description:
         "Appointed as Brand Ambassador for P&C Art Arena, promoting arts, culture, and creative expression across various platforms.",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/IMG-20250818-WA0133.jpg?height=600&width=800",
       icon: Star,
       year: "2020-Present",
-      category: "Brand Partnership",
+      category:"Business Leadership",
     },
     {
       title: "Founder & CEO",
-      subtitle: "P&C",
-      description:
-        "Successfully founded and established P&C as Founder and CEO, building a thriving business from the ground up.",
-      image: "/placeholder.svg?height=600&width=800",
-      icon: Trophy,
-      year: "2019",
-      category: "Entrepreneurship",
-    },
-    {
-      title: "Managing Director",
       subtitle: "Perveen & Chatterjee OPC Pvt Ltd",
       description:
-        "Founded and serves as Managing Director of Perveen & Chatterjee OPC Pvt Ltd, expanding business ventures and creating new opportunities.",
-      image: "/placeholder.svg?height=600&width=800",
-      icon: Award,
-      year: "2023",
-      category: "Business Leadership",
+        "Successfully founded and established P&C as Founder and CEO, building a thriving business from the ground up.",
+      image: "/IMG-20250818-WA0096.jpg?height=600&width=800",
+      icon: Trophy,
+      year: "2020",
+      category: "Entrepreneurship",
     },
+
     {
       title: "Sports Presenter",
       subtitle: "Indian Super League (ISL)",

@@ -134,7 +134,7 @@ export default function AboutPage() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="aspect-[4/3] relative overflow-hidden rounded-lg mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="/WhatsApp Image 2025-09-08 at 00.34.06_3a0947a4.jpg?height=300&width=400"
                   alt="Brand Ambassador"
                   fill
                   className="object-cover"
@@ -146,7 +146,7 @@ export default function AboutPage() {
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="aspect-[4/3] relative overflow-hidden rounded-lg mb-4">
-                <Image src="/portfolio-1 .jpg?height=300&width=400" alt="Entrepreneur" fill className="object-cover" />
+                <Image src="/IMG-20250818-WA0090.jpg?height=300&width=400" alt="Entrepreneur" fill className="object-cover" />
               </div>
               <h3 className="font-playfair text-xl font-bold mb-2">Successful Entrepreneur</h3>
               <p className="text-gray-600">Founded multiple companies with focus on innovation and growth.</p>
