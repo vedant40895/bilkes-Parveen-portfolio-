@@ -8,7 +8,7 @@ export function StatsSection() {
     {
       number: "2021",
       label: "Calendar Cover Model",
-      description: "Face of West Bengal Calendar Cover",
+      description: "Face of West Bengal Cover",
     },
     {
       number: "1",
