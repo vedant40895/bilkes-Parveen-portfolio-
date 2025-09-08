@@ -24,7 +24,7 @@ export default function PortfolioPage() {
       category: "modeling",
       title: "Fashion Editorial Shoot",
       description: "High-fashion editorial for leading magazine",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/IMG-20250818-WA0039.jpg",
       type: "image",
     },
     {
@@ -32,15 +32,15 @@ export default function PortfolioPage() {
       category: "hosting",
       title: "Corporate Event Hosting",
       description: "Emcee for annual corporate conference",
-      image: "/placeholder.svg?height=600&width=400",
-      type: "video",
+      image: "/IMG-20250818-WA0126.jpg",
+      type: "image",
     },
     {
       id: 3,
       category: "brand",
       title: "Luxury Brand Campaign",
       description: "Brand ambassador for premium lifestyle brand",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/IMG-20250818-WA0010.jpg",
       type: "image",
     },
     {
@@ -48,7 +48,7 @@ export default function PortfolioPage() {
       category: "speaking",
       title: "Motivational Speaking",
       description: "Keynote speaker at leadership summit",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/IMG-20250818-WA0024.jpg",
       type: "image",
     },
     {
@@ -56,7 +56,7 @@ export default function PortfolioPage() {
       category: "coaching",
       title: "Image Coaching Session",
       description: "Personal branding and image consultation",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/IMG-20250818-WA0130.jpg",
       type: "image",
     },
     {
@@ -64,7 +64,7 @@ export default function PortfolioPage() {
       category: "modeling",
       title: "Calendar Cover Shoot",
       description: "West Bengal Calendar Cover Model 2021",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/IMG-20250818-WA0131.jpg",
       type: "image",
     },
     {
@@ -72,15 +72,15 @@ export default function PortfolioPage() {
       category: "hosting",
       title: "ISL Sports Presentation",
       description: "Sports presenter at Indian Super League",
-      image: "/placeholder.svg?height=600&width=400",
-      type: "video",
+      image: "/IMG-20250818-WA0084.jpg",
+      type: "image",
     },
     {
       id: 8,
       category: "brand",
       title: "Beauty Brand Partnership",
       description: "Collaboration with premium beauty brand",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/IMG-20250818-WA0086.jpg",
       type: "image",
     },
   ]

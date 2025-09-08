@@ -17,7 +17,7 @@ export default function GalleryPage() {
     { id: "all", label: "All Photos" },
     { id: "modeling", label: "Modeling" },
     { id: "events", label: "Events" },
-    { id: "bts", label: "Behind the Scenes" },
+    { id: "bts", label: "GLimpse" },
     { id: "professional", label: "Professional" },
     { id: "lifestyle", label: "Lifestyle" },
   ]
@@ -41,7 +41,7 @@ export default function GalleryPage() {
     },
     {
       id: 3,
-      src: "/IMG-20250818-WA0008.jpg",
+      src: "/IMG-20250818-WA0084.jpg",
       category: "professional",
       title: "Business Portrait",
       description: "Professional headshot session",
@@ -55,7 +55,7 @@ export default function GalleryPage() {
     },
     {
       id: 5,
-      src: "https://res.cloudinary.com/dtlorxa23/image/upload/v1756105502/cover_awg8ji.jpg",
+      src: "/IMG-20250818-WA0097.jpg",
       category: "bts",
       title: "Behind the Scenes",
       description: "Candid moments during shoot",
@@ -76,7 +76,7 @@ export default function GalleryPage() {
     },
     {
       id: 8,
-      src: "/IMG-20250818-WA0015.jpg",
+      src: "/IMG-20250818-WA0115.jpg",
       category: "modeling",
       title: "Brand Campaign",
       description: "Luxury brand collaboration",
@@ -104,7 +104,7 @@ export default function GalleryPage() {
     },
     {
       id: 12,
-      src: "/IMG-20250818-WA0022.jpg",
+      src: "/IMG-20250818-WA0008.jpg",
       category: "modeling",
       title: "Fashion Week",
       description: "Runway and fashion week",

@@ -22,14 +22,14 @@ export default function AboutPage() {
       title: "Founded P&C",
       description: "Established P&C as Founder and CEO",
       icon: Briefcase,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/IMG-20250818-WA0082.jpg?height=300&width=400",
     },
     {
       year: "2023",
       title: "Perveen & Chatterjee OPC",
       description: "Founded and became Managing Director",
       icon: Briefcase,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/IMG-20250818-WA0129.jpg?height=300&width=700",
     },
   ]
 
@@ -84,8 +84,8 @@ export default function AboutPage() {
                   index % 2 === 1 ? "lg:flex-row-reverse" : ""
                 }`}
               >
-                <div className="flex-1">
-                  <div className="bg-gray-50 p-8 rounded-lg">
+                <div className="flex-[1.5] min-w-[350px]">
+                  <div className="bg-gray-50 p-10 rounded-lg">
                     <div className="flex items-center mb-4">
                       <milestone.icon className="h-8 w-8 text-royal-blue mr-3" />
                       <span className="text-2xl font-playfair font-bold text-royal-blue">{milestone.year}</span>
@@ -94,8 +94,8 @@ export default function AboutPage() {
                     <p className="text-gray-700 leading-relaxed">{milestone.description}</p>
                   </div>
                 </div>
-                <div className="flex-1">
-                  <div className="aspect-[4/3] relative overflow-hidden rounded-lg shadow-lg">
+                <div className="flex-[1.5] min-w-[350px]">
+                  <div className="aspect-[16/9] relative overflow-hidden rounded-lg shadow-lg min-h-[260px]">
                     <Image
                       src={milestone.image || "/placeholder.svg"}
                       alt={milestone.title}
@@ -134,7 +134,7 @@ export default function AboutPage() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="aspect-[4/3] relative overflow-hidden rounded-lg mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="/WhatsApp Image 2025-09-08 at 00.34.06_3a0947a4.jpg?height=300&width=400"
                   alt="Brand Ambassador"
                   fill
                   className="object-cover"
@@ -146,7 +146,7 @@ export default function AboutPage() {
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="aspect-[4/3] relative overflow-hidden rounded-lg mb-4">
-                <Image src="/portfolio-1 .jpg?height=300&width=400" alt="Entrepreneur" fill className="object-cover" />
+                <Image src="/IMG-20250818-WA0090.jpg?height=300&width=400" alt="Entrepreneur" fill className="object-cover" />
               </div>
               <h3 className="font-playfair text-xl font-bold mb-2">Successful Entrepreneur</h3>
               <p className="text-gray-600">Founded multiple companies with focus on innovation and growth.</p>
