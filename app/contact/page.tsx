@@ -245,9 +245,9 @@ export default function ContactPage() {
               "IMG-20250818-WA0044.jpg",
               "IMG-20250818-WA0014.jpg",
               "IMG-20250818-WA0060.jpg",
-              "IMG-20250818-WA0016.jpg",
+              "IMG-20250818-WA0186.jpg",
               "IMG-20250818-WA0018.jpg",
-              "IMG-20250818-WA0020.jpg",
+              "IMG-20250818-WA0194.jpg",
               "IMG-20250818-WA0051.jpg",
               "IMG-20250818-WA0023.jpg"
             ].map((img, i) => (

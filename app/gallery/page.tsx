@@ -17,7 +17,7 @@ export default function GalleryPage() {
     { id: "all", label: "All Photos" },
     { id: "modeling", label: "Modeling" },
     { id: "events", label: "Events" },
-    { id: "bts", label: "GLimpse" },
+    { id: "Glimpse", label: "Glimpse" },
     { id: "professional", label: "Professional" },
     { id: "lifestyle", label: "Lifestyle" },
   ]
@@ -35,15 +35,15 @@ export default function GalleryPage() {
     {
       id: 2,
       src: "/IMG-20250818-WA0007.jpg",
-      category: "events",
-      title: "Corporate Event",
+      category: "lifestyle",
+      title: "Lifestyle Portrait",
       description: "Hosting corporate conference",
     },
     {
       id: 3,
       src: "/IMG-20250818-WA0084.jpg",
       category: "professional",
-      title: "Business Portrait",
+      title: "Ethnic Portrait",
       description: "Professional headshot session",
     },
     {
@@ -56,23 +56,23 @@ export default function GalleryPage() {
     {
       id: 5,
       src: "/IMG-20250818-WA0097.jpg",
-      category: "bts",
+      category: "Glimpse",
       title: "Behind the Scenes",
       description: "Candid moments during shoot",
     },
     {
       id: 6,
       src: "/IMG-20250818-WA0012.jpg",
-      category: "lifestyle",
-      title: "Lifestyle Portrait",
-      description: "Natural lifestyle photography",
+      category: "events",
+      title: "Corporate Events",
+      description: "Hosting corporate conference",
     },
     {
       id: 7,
-      src: "/IMG-20250818-WA0014.jpg",
-      category: "events",
-      title: "ISL Presentation",
-      description: "Sports presenting at ISL",
+      src: "/IMG-20250818-WA0185.jpg",
+      category: "Glimpse",
+      title: "Bold & Elegance",
+      description: "Style & grace in every frame",
     },
     {
       id: 8,
@@ -83,7 +83,7 @@ export default function GalleryPage() {
     },
     {
       id: 9,
-      src: "/IMG-20250818-WA0016.jpg",
+      src: "/IMG-20250818-WA0173.jpg",
       category: "professional",
       title: "Speaking Event",
       description: "Keynote speaking engagement",
@@ -91,9 +91,9 @@ export default function GalleryPage() {
     {
       id: 10,
       src: "/IMG-20250818-WA0018.jpg",
-      category: "bts",
+      category: "Glimpse",
       title: "Preparation",
-      description: "Getting ready for shoot",
+      description: "Getting memorable shoot",
     },
     {
       id: 11,
