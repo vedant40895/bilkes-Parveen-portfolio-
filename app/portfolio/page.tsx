@@ -140,9 +140,9 @@ export default function PortfolioPage() {
                     </div>
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <h3 className="font-playfair text-xl font-bold mb-1">{item.title}</h3>
-                    <p className="text-sm opacity-90">{item.description}</p>
+                  <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 sm:opacity-0 sm:group-hover:opacity-100 xs:opacity-100 xs:static xs:bg-black/60 xs:rounded-b-lg xs:p-2">
+                    <h3 className="font-playfair text-xl font-bold mb-1 xs:text-base xs:mb-0">{item.title}</h3>
+                    <p className="text-sm opacity-90 xs:opacity-100">{item.description}</p>
                   </div>
                 </div>
               </div>
