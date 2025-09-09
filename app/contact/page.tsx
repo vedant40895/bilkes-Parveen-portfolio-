@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Instagram, Linkedin, Clock } from "lucide-react";
+import axios from "axios";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -21,20 +22,30 @@ export default function ContactPage() {
     setError("");
     const form = formRef.current;
     if (!form) return;
+    
+    // Get form data
     const formData = new FormData(form);
+    const name = formData.get('name') as string;
+    const email = formData.get('email') as string;
+    const phone = formData.get('phone') as string;
+    const subject = formData.get('service') ? `Inquiry about ${formData.get('service')}` : "Contact Form Submission";
+    const message = formData.get('message') as string;
+    
     try {
-      const response = await fetch("https://formspree.io/f/mrbazldo", {
-        method: "POST",
-        body: formData,
-        headers: {
-          Accept: "application/json",
-        },
+      // Call our own API endpoint
+      const response = await axios.post("/api/email", {
+        name,
+        email,
+        phone,
+        subject,
+        message
       });
-      if (response.ok) {
+      
+      if (response.status === 200) {
         setSubmitted(true);
         form.reset();
       } else {
-        setError("Something went wrong. Please try again later.");
+        setError(response.data.error || "Something went wrong. Please try again later.");
       }
     } catch (err) {
       setError("Something went wrong. Please try again later.");
