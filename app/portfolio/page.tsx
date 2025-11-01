@@ -10,18 +10,18 @@ export default function PortfolioPage() {
   const [lightboxImage, setLightboxImage] = useState<string | null>(null)
 
   const categories = [
-    { id: "all", label: "All Work" },
-    { id: "modeling", label: "Modeling" },
-    { id: "hosting", label: "Emcee/Hosting" },
-    { id: "coaching", label: "Coaching Sessions" },
-    { id: "speaking", label: "Speaker Events" },
-    { id: "brand", label: "Brand Collaborations" },
+    { id: "Modelling", label: "Modelling" },
+    { id: "Emcee", label: "Emcee" },
+    { id: "Event Appearances", label: "Event Appearances" },
+    { id: "Personality Development Sessions", label: "Personality Development Sessions" },
+    { id: "Pagent grooming", label: "Pagent grooming" },
+    { id: "brand Collaborations", label: "brand   Collaborations" },
   ]
 
   const portfolioItems = [
     {
       id: 1,
-      category: "modeling",
+      category: "modelling",
       title: "Fashion Editorial Shoot",
       description: "High-fashion editorial for leading magazine",
       image: "/IMG-20250818-WA0039.jpg",
@@ -29,15 +29,15 @@ export default function PortfolioPage() {
     },
     {
       id: 2,
-      category: "hosting",
+      category: "modelling",
       title: "Corporate Event Hosting",
       description: "Emcee for annual corporate conference",
-      image: "/IMG-20250818-WA0126.jpg",
+      image: "/IMG-20250818-WA0086.jpg",
       type: "image",
     },
     {
       id: 3,
-      category: "brand",
+      category: "brand Collaborations",
       title: "Luxury Brand Campaign",
       description: "Brand ambassador for premium lifestyle brand",
       image: "/IMG-20250818-WA0010.jpg",
@@ -45,7 +45,7 @@ export default function PortfolioPage() {
     },
     {
       id: 4,
-      category: "speaking",
+      category: "Personality Development Sessions",
       title: "Motivational Speaking",
       description: "Keynote speaker at leadership summit",
       image: "/IMG-20250818-WA0024.jpg",
@@ -53,7 +53,7 @@ export default function PortfolioPage() {
     },
     {
       id: 5,
-      category: "coaching",
+      category: "Emcee",
       title: "Image Coaching Session",
       description: "Personal branding and image consultation",
       image: "/IMG-20250818-WA0130.jpg",
@@ -61,7 +61,7 @@ export default function PortfolioPage() {
     },
     {
       id: 6,
-      category: "modeling",
+      category: "Emcee",
       title: "Calendar Cover Shoot",
       description: "West Bengal Calendar Cover Model 2021",
       image: "/IMG-20250818-WA0131.jpg",
@@ -69,7 +69,7 @@ export default function PortfolioPage() {
     },
     {
       id: 7,
-      category: "hosting",
+      category: "pagent grooming",
       title: "ISL Sports Presentation",
       description: "Sports presenter at Indian Super League",
       image: "/IMG-20250818-WA0084.jpg",
@@ -77,10 +77,10 @@ export default function PortfolioPage() {
     },
     {
       id: 8,
-      category: "brand",
+      category: "brand Collaborations",
       title: "Beauty Brand Partnership",
       description: "Collaboration with premium beauty brand",
-      image: "/IMG-20250818-WA0086.jpg",
+      image: "/IMG-20250818-WA0126.jpg",
       type: "image",
     },
   ]
