@@ -14,6 +14,7 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [showOtherField, setShowOtherField] = useState(false);
   const formRef = useRef<HTMLFormElement>(null);
 
   const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -28,7 +29,10 @@ export default function ContactPage() {
     const name = formData.get('name') as string;
     const email = formData.get('email') as string;
     const phone = formData.get('phone') as string;
-    const subject = formData.get('service') ? `Inquiry about ${formData.get('service')}` : "Contact Form Submission";
+    const service = formData.get('service') as string;
+    const otherService = formData.get('otherService') as string;
+    const serviceText = service === 'other' && otherService ? otherService : service;
+    const subject = serviceText ? `Inquiry about ${serviceText}` : "Contact Form Submission";
     const message = formData.get('message') as string;
     
     try {
@@ -127,18 +131,34 @@ export default function ContactPage() {
                             id="service"
                             name="service"
                             className="mt-1 w-full border rounded px-3 py-2"
+                            onChange={(e) => setShowOtherField(e.target.value === "other")}
                           >
                             <option value="">Select a service</option>
-                            <option value="image-coaching">1-on-1 Image Coaching</option>
-                            <option value="personality-development">Personality Development</option>
-                            <option value="public-speaking">Public Speaking Training</option>
-                            <option value="image-management">Professional Image Management</option>
-                            <option value="speaking-engagement">Speaking Engagement</option>
-                            <option value="brand-collaboration">Brand Collaboration</option>
+                            <option value="store-visit-collab">Store Visit Collab</option>
+                            <option value="event-appearance">Event Appearance</option>
+                            <option value="influencer-reel-promotion">Influencer Reel Paid Promotion Collab</option>
+                            <option value="studio-fashion-shoot">Studio Fashion & Shoot Brand Collab</option>
+                            <option value="pageant-grooming">Pageant Grooming</option>
+                            <option value="personality-development-workshop">Personality Development Workshop</option>
+                            <option value="one-on-one-image-coaching">1-on-1 Image Coaching</option>
+                            <option value="modelling-fashion-photoshoot">Modelling Fashion Photoshoot</option>
                             <option value="other">Other</option>
                           </select>
                         </div>
                       </div>
+
+                      {showOtherField && (
+                        <div>
+                          <Label htmlFor="otherService">Please specify the service *</Label>
+                          <Input
+                            id="Other"
+                            name="other"
+                            required
+                            className="mt-1"
+                            placeholder="Enter the service you're interested in..."
+                          />
+                        </div>
+                      )}
 
                       <div>
                         <Label htmlFor="message">Message *</Label>
