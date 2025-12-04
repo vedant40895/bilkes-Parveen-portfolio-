@@ -134,14 +134,15 @@ export default function ContactPage() {
                             onChange={(e) => setShowOtherField(e.target.value === "other")}
                           >
                             <option value="">Select a service</option>
-                            <option value="store-visit-collab">Store Visit Collab</option>
-                            <option value="event-appearance">Event Appearance</option>
+                            <option value="store-visit-paid-promotion">Store Visit Paid Promotion</option>
+                            <option value="exhibition-event-appearance">Exhibition/Event Appearance and Paid Promotion</option>
                             <option value="influencer-reel-promotion">Influencer Reel Paid Promotion Collab</option>
-                            <option value="studio-fashion-shoot">Studio Fashion & Shoot Brand Collab</option>
-                            <option value="pageant-grooming">Pageant Grooming</option>
-                            <option value="personality-development-workshop">Personality Development Workshop</option>
-                            <option value="one-on-one-image-coaching">1-on-1 Image Coaching</option>
-                            <option value="modelling-fashion-photoshoot">Modelling Fashion Photoshoot</option>
+                            <option value="studio-fashion-shoot-collab">Studio Fashion Shoot Brand Collab (Photographers/Brands/Makeup Artists)</option>
+                            <option value="fashion-show-pageant">Fashion Show Direction/Pageant Grooming/Jury</option>
+                            <option value="emcee-anchoring-podcast">Emcee/Anchoring/Podcast Hosting/Guest Speaker</option>
+                            <option value="personality-development-workshop">Personality Development Workshop (School/College/Corporates)</option>
+                            <option value="one-on-one-coaching">1-on-1 Image Coaching/Personality Development</option>
+                            <option value="modelling-photoshoot">Modelling Fashion Photoshoot/TVC/Hoarding Shoot/Music Video</option>
                             <option value="other">Other</option>
                           </select>
                         </div>
