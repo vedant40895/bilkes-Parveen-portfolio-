@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
         <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-7 animate-fade-in">Bilkes Perveen</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
-          Entrepreneur | Image Coach | Model | Emcee | Influencer | Speaker
+          Entrepreneur | Fashion lifestyle & Sports Influencer | Model | Image Coach| Emcee & Speaker | Pageant Show Director & Grooming expert
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild size="lg" className="bg-royal-blue hover:bg-royal-blue/90 text-lg px-8 py-3">

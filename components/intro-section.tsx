@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export function IntroSection() {
   return (
@@ -10,19 +10,38 @@ export function IntroSection() {
               Empowering Through Excellence
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              As a multifaceted professional, I bring together the worlds of entrepreneurship, image coaching, modeling,
-              and public speaking. My journey spans from being the Face of West Bengal Calendar Cover Model 2021 to
-              founding a successful company and coaching individuals to unlock their full potential.
+              Welcome to my world!
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              I'm Bilkes Perveen — a multifaceted personality driven by passion,
+              purpose, and the art of self-expression. From being a *social
+              media influencer, emcee, corporate soft-skills trainer, image
+              coach, content creator, model, show director, and speaker*, my
+              journey has been a dynamic blend of creativity and
+              professionalism.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              With experience as a former Sports Presenter at ISL and founder of multiple ventures, I understand the
-              importance of personal branding, confidence, and authentic self-expression in today's competitive
-              landscape.
+              With over a decade of corporate experience, I truly understand the
+              power of communication, self-branding, and authentic confidence.
+              These values have shaped my path and helped me collaborate with
+              numerous brands across fashion, lifestyle, corporate and creative
+              industries.
+            </p>
+            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+              Here, I share my work, my voice, and my vision. Welcome to a space
+              where passion meets purpose — and where every story
+              inspires growth.
             </p>
             <div className="flex flex-wrap gap-4">
-              <span className="px-4 py-2 bg-royal-blue text-white rounded-full text-sm font-medium">Entrepreneur</span>
-              <span className="px-4 py-2 bg-rose-gold text-white rounded-full text-sm font-medium">Image Coach</span>
-              <span className="px-4 py-2 bg-black text-white rounded-full text-sm font-medium">Speaker</span>
+              <span className="px-4 py-2 bg-royal-blue text-white rounded-full text-sm font-medium">
+                Entrepreneur
+              </span>
+              <span className="px-4 py-2 bg-rose-gold text-white rounded-full text-sm font-medium">
+                Social Media Influencer
+              </span>
+              <span className="px-4 py-2 bg-black text-white rounded-full text-sm font-medium">
+                Image Coach
+              </span>
             </div>
           </div>
           <div className="order-1 lg:order-2">
@@ -42,5 +61,5 @@ export function IntroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
