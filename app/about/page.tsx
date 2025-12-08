@@ -27,7 +27,7 @@ export default function AboutPage() {
     {
       year: "2022",
       title: "Show Director",
-      description: "Took on the role of Show Director for major fashion events",
+      description: "Fashion Lifestyle Brand Shoots with renowned brands",
       icon: Users,
       image: "/2022.jpg?height=300&width=400",
     },
