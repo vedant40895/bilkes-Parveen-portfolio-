@@ -15,12 +15,12 @@ export function ImageSlider() {
       // description: "Professional fashion and commercial modeling work",
     },
     {
-      image: "/new.png?height=600&width=800",
+      image: "/event-hosting.jpg?height=600&width=800",
       title: "Event Hosting",
       // description: "Emcee and hosting at corporate and entertainment events",
     },
     {
-      image: "/IMG-20250818-WA0135.jpg?height=600&width=800",
+      image: "/speaking-sessions.jpg?height=600&width=800",
       title: "Speaking Engagements",
       // description: "Motivational speaking and industry presentations",
     },
