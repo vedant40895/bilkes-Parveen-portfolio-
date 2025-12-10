@@ -93,7 +93,8 @@ export default function ServicesPage() {
 
   return (
     <div className="min-h-screen pt-16">
-      {/* Hero Section */}
+
+     {/* Hero Section */}
       <section className="py-20 bg-gradient-to-r from-royal-blue to-black">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h1 className="font-playfair text-5xl md:text-6xl font-bold text-white mb-6">Coaching Services</h1>
