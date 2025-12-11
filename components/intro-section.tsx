@@ -14,9 +14,9 @@ export function IntroSection() {
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               I'm Bilkes Perveen — a multifaceted personality driven by passion,
-              purpose, and the art of self-expression. From being a *social
+              purpose, and the art of self-expression. From being a social
               media influencer, emcee, corporate soft-skills trainer, image
-              coach, content creator, model, show director, and speaker*, my
+              coach, content creator, model, show director, and speaker, my
               journey has been a dynamic blend of creativity and
               professionalism.
             </p>

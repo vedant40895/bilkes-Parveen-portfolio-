@@ -15,25 +15,25 @@ export function ImageSlider() {
       // description: "Professional fashion and commercial modeling work",
     },
     {
-      image: "/event-hosting.jpg?height=600&width=800",
-      title: "Event Hosting",
+      image: "/slider-1.jpeg?height=600&width=800",
+      title: "Successful Entrepreneurship",
       // description: "Emcee and hosting at corporate and entertainment events",
     },
     {
-      image: "/speaking-sessions.jpg?height=600&width=800",
-      title: "Speaking Engagements",
+      image: "/slider-2.jpeg?height=600&width=800",
+      title: "Image Coaching",
       // description: "Motivational speaking and industry presentations",
     },
     {
-      image: "/IMG-20250818-WA0232.jpg?height=600&width=800",
+      image: "/slider-3.jpeg?height=600&width=800",
       title: "Brand Collaborations",
       // description: "Strategic partnerships with leading brands",
     },
-    {
-      image: "/IMG-20250818-WA0042.jpg?height=600&width=800",
-      title: "Image Coaching Sessions",
-      // description: "Personal image coaching and development programs",
-    },
+    // {
+    //   image: "/IMG-20250818-WA0042.jpg?height=600&width=800",
+    //   title: "Image Coaching Sessions",
+    //   // description: "Personal image coaching and development programs",
+    // },
   ]
 
   useEffect(() => {
