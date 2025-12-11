@@ -6,23 +6,23 @@ export default function AboutPage() {
     {
       year: "2019",
       title: "Fashion Show & Company Formation",
-      description: "Founded P&C and stepped into the fashion industry",
+      description: "Formed the Grooming Academy and started The beauty Pageant",
       icon: Briefcase,
       image: "/2019.jpg?height=300&width=400",
     },
     {
       year: "2020",
       title: "Minu Sarees",
-      description: "Minu milestone achievement",
+      description: "Fashion Brand Shoots with Renowned Brands",
       icon: Award,
       image: "/minu.jpg?height=300&width=400",
     },
     {
       year: "2021",
-      title: "Calendar Cover",
-      description: "Selected as Face of West Bengal Calendar Cover Model",
+      title: "Collaborations as a host with Merlin Group",
+      description: "Football Mania at Merlin Group",
       icon: Award,
-      image: "/2021.jpg?height=300&width=400",
+      image: "/2021-(2).jpg?height=300&width=400",
     },
     {
       year: "2022",
@@ -48,7 +48,7 @@ export default function AboutPage() {
     {
       year: "2025",
       title: "Prabhuji",
-      description: "Brand partnership with Prabhuji",
+      description: "Collaborations with National Brand - Prabhuji",
       icon: Award,
       image: "/prabhuji.jpg?height=300&width=400",
     },
