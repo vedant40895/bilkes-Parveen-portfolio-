@@ -4,21 +4,21 @@ import { Award, Star, Trophy, Crown } from "lucide-react"
 export default function AchievementsPage() {
   const achievements = [
     {
-      title: "Calendar Cover Model 2021",
-      subtitle: "Face of West Bengal",
+      title: "Calendar Cover",
+      subtitle: "Calendar Cover Model",
       description:
-        "Selected as the face of West Bengal Calendar Cover Model 2021, representing elegance, grace, and the cultural essence of the region.",
-      image: "/placeholder.svg?height=600&width=800",
+        "Selected as the face of West Bengal Calendar Cover Model, representing elegance, grace, and the cultural essence of the region.",
+      image: "/achievement-1.jpg?height=600&width=800",
       icon: Crown,
       year: "2021",
       category: "Modeling",
     },
     {
-      title: "Brand Ambassador",
-      subtitle: "P&C Art Arena",
+      title: "Endorsements of Renowned Brands",
+      subtitle: "Brand Contracts",
       description:
         "Appointed as Brand Ambassador for P&C Art Arena, promoting arts, culture, and creative expression across various platforms.",
-      image: "/IMG-20250818-WA0133.jpg?height=600&width=800",
+      image: "/achievement-2.jpeg?height=600&width=800",
       icon: Star,
       year: "2020-Present",
       category:"Business Leadership",
@@ -28,7 +28,7 @@ export default function AchievementsPage() {
       subtitle: "Perveen & Chatterjee OPC Pvt Ltd",
       description:
         "Successfully founded and established P&C as Founder and CEO, building a thriving business from the ground up.",
-      image: "/IMG-20250818-WA0096.jpg?height=600&width=800",
+      image: "/achievement-3.jpeg?height=600&width=800",
       icon: Trophy,
       year: "2020",
       category: "Entrepreneurship",
@@ -39,7 +39,7 @@ export default function AchievementsPage() {
       subtitle: "Indian Super League (ISL)",
       description:
         "Served as Sports Presenter for the Indian Super League, bringing expertise and charisma to sports broadcasting.",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/achievement-4.jpeg?height=600&width=800",
       icon: Star,
       year: "2020-2022",
       category: "Media & Broadcasting",
