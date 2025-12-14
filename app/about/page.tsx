@@ -6,7 +6,7 @@ export default function AboutPage() {
     {
       year: "2019",
       title: "Fashion Show & Company Formation",
-      description: "Formed the Grooming Academy and started The beauty Pageant",
+      description: "Formed the Grooming Academy andf started The beauty Pageant",
       icon: Briefcase,
       image: "/2019.jpg?height=300&width=400",
     },
@@ -181,51 +181,51 @@ export default function AboutPage() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="aspect-[4/3] relative overflow-hidden rounded-lg mb-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="/prof-1.jpg?height=300&width=400"
                   alt="Calendar Cover 2021"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="font-playfair text-xl font-bold mb-2">
-                Calendar Cover Model 2021
+                Hosting Events
               </h3>
               <p className="text-gray-600">
-                Face of West Bengal Calendar, representing elegance and grace.
+                Founder and Director of P&C group.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="aspect-[4/3] relative overflow-hidden rounded-lg mb-4">
                 <Image
-                  src="/WhatsApp Image 2025-09-08 at 00.34.06_3a0947a4.jpg?height=300&width=400"
+                  src="/prof-2.jpg?height=300&width=400"
                   alt="Brand Ambassador"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="font-playfair text-xl font-bold mb-2">
-                Brand Ambassador
+                Kolkata Cyclothon
               </h3>
               <p className="text-gray-600">
-                P&C Art Arena Brand Ambassador, promoting arts and culture.
+                Pan India Brand Endorsements and Collaborations.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="aspect-[4/3] relative overflow-hidden rounded-lg mb-4">
                 <Image
-                  src="/IMG-20250818-WA0090.jpg?height=300&width=400"
+                  src="/prof-3.jpg?height=300&width=400"
                   alt="Entrepreneur"
                   fill
                   className="object-cover"
                 />
               </div>
               <h3 className="font-playfair text-xl font-bold mb-2">
-                Successful Entrepreneur
+                Infinity Jewels
               </h3>
               <p className="text-gray-600">
-                Founded multiple companies with focus on innovation and growth.
+                Brand Face for Jewellery Companies.
               </p>
             </div>
           </div>
