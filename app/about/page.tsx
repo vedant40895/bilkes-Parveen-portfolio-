@@ -26,8 +26,8 @@ export default function AboutPage() {
     },
     {
       year: "2022",
-      title: "Show Director",
-      description: "Fashion Lifestyle Brand Shoots with renowned brands",
+      title: "Lifestyle Brand Endorsements",
+      description: "Brand endorsements for National Fashion lifestyle products",
       icon: Users,
       image: "/2022.jpg?height=300&width=400",
     },

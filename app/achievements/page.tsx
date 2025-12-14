@@ -13,36 +13,46 @@ export default function AchievementsPage() {
       year: "2021",
       category: "Modeling",
     },
+    // {
+    //   title: "Endorsements of Renowned Brands",
+    //   subtitle: "Brand Contracts",
+    //   description:
+    //     "Appointed as Brand Ambassador for P&C Art Arena, promoting arts, culture, and creative expression across various platforms.",
+    //   image: "/achievement-2.jpeg?height=600&width=800",
+    //   icon: Star,
+    //   year: "2020-Present",
+    //   category:"Business Leadership",
+    // },
     {
-      title: "Endorsements of Renowned Brands",
-      subtitle: "Brand Contracts",
+      title: "Collaboration with Sports & Fitness events",
+      subtitle: "Sports & fitness Collabs",
       description:
-        "Appointed as Brand Ambassador for P&C Art Arena, promoting arts, culture, and creative expression across various platforms.",
-      image: "/achievement-2.jpeg?height=600&width=800",
-      icon: Star,
-      year: "2020-Present",
-      category:"Business Leadership",
-    },
-    {
-      title: "Founder & CEO",
-      subtitle: "Perveen & Chatterjee OPC Pvt Ltd",
-      description:
-        "Successfully founded and established P&C as Founder and CEO, building a thriving business from the ground up.",
+        "Apointee as Official Sports Influencer for Major Marathon of the country",
       image: "/achievement-3.jpeg?height=600&width=800",
       icon: Trophy,
       year: "2020",
-      category: "Entrepreneurship",
+      category: "Content creator for JBG Kolkata Marathon",
     },
 
     {
-      title: "Sports Presenter",
-      subtitle: "Indian Super League (ISL)",
+      title: " Times Fashion Week",
+      subtitle: "Appointed as Fashion influencer for Times Fashion Week.",
       description:
-        "Served as Sports Presenter for the Indian Super League, bringing expertise and charisma to sports broadcasting.",
+        "Attended as Fashion influencer for National Fashion Weeks for branda like Panghat",
       image: "/achievement-4.jpeg?height=600&width=800",
       icon: Star,
       year: "2020-2022",
-      category: "Media & Broadcasting",
+      category: "Fashion Lifestyle Influencer",
+    },
+    {
+      title: "News & Media",
+      subtitle: "Featured on leading Media house BBC News",
+      description:
+        "Featured on International Media for their corporate shoots",
+      image: "/achievement-5.jpg?height=600&width=800",
+      icon: Award,
+      year: "2018-Present",
+      category: "Media houses",
     },
   ]
 

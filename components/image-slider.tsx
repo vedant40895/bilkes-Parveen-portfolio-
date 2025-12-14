@@ -26,7 +26,7 @@ export function ImageSlider() {
     },
     {
       image: "/slider-3.jpeg?height=600&width=800",
-      title: "Brand Collaborations",
+      title: "Hoarding Shoots/Brand endorsements",
       // description: "Strategic partnerships with leading brands",
     },
     // {
