@@ -13,10 +13,9 @@ export function Navigation() {
     { href: "/about", label: "About" },
     { href: "/portfolio", label: "Portfolio" },
     { href: "/achievements", label: "Achievements" },
+    { href: "/csr", label: "CSR" },
     { href: "/services", label: "Services" },
     { href: "/gallery", label: "Gallery" },
-    // { href: "/blog", label: "Blog" },
-    // { href: "/contact", label: "Contact" },
   ]
 
   return (
