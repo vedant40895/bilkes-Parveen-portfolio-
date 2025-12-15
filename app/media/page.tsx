@@ -6,32 +6,18 @@ import { Card, CardContent, CardDescription } from "@/components/ui/card";
 export default function MediaAwardsPage() {
   const mediaImages = [
     "/media-1.jpg",
+    "/media-2.jpg",
     "/media-3.jpg",
     "/media-4.jpg",
-    "/media-5.jpg",
-    "/media-6.jpg",
-    "/media-7.jpg",
-    "/media-8.jpg",
-    "/media-9.jpg",
-    "/media-10.jpg",
-    "/media-11.jpg",
-    "/media-12.jpg",
-    "/media-13.jpg",
-    "/media-14.jpg",
-    "/media-15.jpg",
-    // "/media-16.  jpg",
-    "/media-17.jpg",
-    "/media-18.jpg",
-    "/media-19.jpg",
-    "/media-20.jpg",
-    "/media-21.jpg",
+    "/media-5.jpeg",
   ];
   const awardImages = [
     "/WhatsApp Image 2025-12-14 at 22.50.33_5b86a607.jpg",
     "/WhatsApp Image 2025-12-14 at 22.51.27_88feadcd.jpg",
     "/WhatsApp Image 2025-12-14 at 22.52.17_fcb71665.jpg",
     "/WhatsApp Image 2025-12-14 at 22.58.42_31946ba2.jpg",
-    "/WhatsApp Image 2025-12-14 at 23.22.48_7cb1bbef.jpg"
+    "/WhatsApp Image 2025-12-14 at 23.22.48_7cb1bbef.jpg",
+    "/awards-6.jpeg",
     // Add more award image paths as needed
   ];
 
@@ -63,7 +49,7 @@ export default function MediaAwardsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {mediaImages.map((img, i) => (
               <Card key={i} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div className="aspect-[4/3] relative">
+                <div className="aspect-[3/4] relative">
                   <Image
                     src={img}
                     alt={`Media Highlight ${i + 1}`}
@@ -91,7 +77,7 @@ export default function MediaAwardsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {awardImages.map((img, i) => (
               <Card key={i} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div className="aspect-[4/3] relative">
+                <div className="aspect-[3/4] relative">
                   <Image
                     src={img}
                     alt={`Award ${i + 1}`}

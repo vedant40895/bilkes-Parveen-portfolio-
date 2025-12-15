@@ -27,7 +27,7 @@ export default function AchievementsPage() {
       title: "Collaboration with Sports & Fitness events",
       subtitle: "Sports & fitness Collabs",
       description:
-        "Apointee as Official Sports Influencer for Major Marathon of the country",
+        "Apointed as Official Sports Influencer for Major Marathon of the country",
       image: "/achievement-3.jpeg?height=600&width=800",
       icon: Trophy,
       year: "2020",
@@ -38,7 +38,7 @@ export default function AchievementsPage() {
       title: " Times Fashion Week",
       subtitle: "Appointed as Fashion influencer for Times Fashion Week.",
       description:
-        "Attended as Fashion influencer for National Fashion Weeks for branda like Panghat",
+        "Attended as Fashion influencer for National Fashion Weeks for brand like Panghat",
       image: "/achievement-4.jpeg?height=600&width=800",
       icon: Star,
       year: "2020-2022",

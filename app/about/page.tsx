@@ -215,7 +215,7 @@ export default function AboutPage() {
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="aspect-[4/3] relative overflow-hidden rounded-lg mb-4">
                 <Image
-                  src="/prof-3.jpg?height=300&width=400"
+                  src="/jewels.jpeg?height=300&width=400"
                   alt="Entrepreneur"
                   fill
                   className="object-cover"
