@@ -13,10 +13,10 @@ export function Footer() {
               coaching and personality development.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-rose-gold transition-colors">
+              <a href="https://www.instagram.com/bilkesperveen?igsh=ejYyMHlkdnh4cmMw" className="text-gray-300 hover:text-rose-gold transition-colors">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-rose-gold transition-colors">
+              <a href="https://www.linkedin.com/in/bilkes-perveen-2536a3177/" className="text-gray-300 hover:text-rose-gold transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
@@ -73,8 +73,29 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© 2024 Bilkes Perveen. All rights reserved.</p>
+        <div className="border-t border-gray-800 mt-8 pt-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-gray-400 text-base">© 2024 Bilkes Perveen. All rights reserved.</p>
+            <div className="flex items-center gap-3 text-slate-400 text-base">
+              <span className="font-medium">Designed by Vedant Khanna</span>
+              <a 
+                href="https://www.linkedin.com/in/vedant-khanna-aaa48a258/" 
+                className="w-7 h-7 bg-slate-700 rounded-md flex items-center justify-center hover:bg-blue-600 transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LinkedIn Profile"
+              >
+                <Linkedin className="w-5 h-5 text-white" />
+              </a>
+              <a 
+                href="mailto:vedantkhanna40@gmail.com" 
+                className="w-7 h-7 bg-slate-700 rounded-md flex items-center justify-center hover:bg-accent transition-colors duration-300"
+                title="Email"
+              >
+                <Mail className="w-5 h-5 text-white"/>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

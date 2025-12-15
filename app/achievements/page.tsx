@@ -54,6 +54,15 @@ export default function AchievementsPage() {
       year: "2018-Present",
       category: "Media houses",
     },
+    {
+      title: "Icons of Kolkata",
+      subtitle: "Featured as Iconic Personality of Kolkata",
+      description:"Recognized and featured as individuals who have made significant contributions to the city's culture.",
+      image: "/achievement-6.jpeg?height=600&width=800",
+      icon: Crown,
+      year: "2023",
+      category: "Recognition & Awards",
+    },
   ]
 
   return (
