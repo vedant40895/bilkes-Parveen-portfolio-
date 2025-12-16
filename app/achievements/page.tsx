@@ -10,7 +10,6 @@ export default function AchievementsPage() {
         "Selected as the face of West Bengal Calendar Cover Model, representing elegance, grace, and the cultural essence of the region.",
       image: "/achievement-1.jpg?height=600&width=800",
       icon: Crown,
-      year: "2021",
       category: "Modeling",
     },
     // {
@@ -30,7 +29,6 @@ export default function AchievementsPage() {
         "Apointed as Official Sports Influencer for Major Marathon of the country",
       image: "/achievement-3.jpeg?height=600&width=800",
       icon: Trophy,
-      year: "2020",
       category: "Content creator for JBG Kolkata Marathon",
     },
 
@@ -41,7 +39,6 @@ export default function AchievementsPage() {
         "Attended as Fashion influencer for National Fashion Weeks for brand like Panghat",
       image: "/achievement-4.jpeg?height=600&width=800",
       icon: Star,
-      year: "2020-2022",
       category: "Fashion Lifestyle Influencer",
     },
     {
@@ -51,7 +48,6 @@ export default function AchievementsPage() {
         "Featured on International Media for their corporate shoots",
       image: "/achievement-5.jpg?height=600&width=800",
       icon: Award,
-      year: "2018-Present",
       category: "Media houses",
     },
     {
@@ -60,7 +56,6 @@ export default function AchievementsPage() {
       description:"Recognized and featured as individuals who have made significant contributions to the city's culture.",
       image: "/achievement-6.jpeg?height=600&width=800",
       icon: Crown,
-      year: "2023",
       category: "Recognition & Awards",
     },
   ]
@@ -100,9 +95,9 @@ export default function AchievementsPage() {
                     <h2 className="font-playfair text-3xl md:text-4xl font-bold text-black mr-4">
                       {achievement.title}
                     </h2>
-                    <span className="bg-rose-gold text-white px-3 py-1 rounded-full text-sm font-medium">
+                    {/* <span className="bg-rose-gold text-white px-3 py-1 rounded-full text-sm font-medium">
                       {achievement.year}
-                    </span>
+                    </span> */}
                   </div>
                   <h3 className="text-xl font-semibold text-gray-700 mb-4">{achievement.subtitle}</h3>
                   <p className="text-lg text-gray-600 leading-relaxed mb-6">{achievement.description}</p>

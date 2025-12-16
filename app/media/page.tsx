@@ -12,7 +12,7 @@ export default function MediaAwardsPage() {
     "/media-5.jpeg",
   ];
   const awardImages = [
-    "/WhatsApp Image 2025-12-14 at 22.50.33_5b86a607.jpg",
+    "/paper.jpeg",
     "/WhatsApp Image 2025-12-14 at 22.51.27_88feadcd.jpg",
     "/WhatsApp Image 2025-12-14 at 22.52.17_fcb71665.jpg",
     "/WhatsApp Image 2025-12-14 at 22.58.42_31946ba2.jpg",
