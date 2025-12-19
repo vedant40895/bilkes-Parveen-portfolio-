@@ -21,66 +21,56 @@ export default function PortfolioPage() {
   const portfolioItems = [
     {
       id: 1,
-      category: "modelling",
-      title: "Fashion Editorial Shoot",
-      description: "High-fashion editorial for leading magazine",
-      image: "/IMG-20250818-WA0039.jpg",
+      category: "brand collaborations",
+      image: "/collab-1.jpg",
       type: "image",
     },
     {
       id: 2,
-      category: "modelling",
-      title: "Corporate Event Hosting",
-      description: "Emcee for annual corporate conference",
-      image: "/IMG-20250818-WA0086.jpg",
+      category: "brand Collaborations",
+      image: "/collab-2.jpg",
       type: "image",
     },
     {
       id: 3,
       category: "brand Collaborations",
-      title: "Luxury Brand Campaign",
-      description: "Brand ambassador for premium lifestyle brand",
-      image: "/IMG-20250818-WA0010.jpg",
+      image: "/collab-3.jpg",
       type: "image",
     },
     {
       id: 4,
-      category: "Personality Development Sessions",
-      title: "Motivational Speaking",
-      description: "Keynote speaker at leadership summit",
-      image: "/IMG-20250818-WA0024.jpg",
+      category: "brand collaborations",
+      image: "/collab-5.jpg",
       type: "image",
     },
     {
       id: 5,
       category: "Emcee",
-      title: "Image Coaching Session",
-      description: "Personal branding and image consultation",
-      image: "/IMG-20250818-WA0130.jpg",
+      image: "/emcee-1.jpg",
       type: "image",
     },
     {
       id: 6,
       category: "Emcee",
-      title: "Calendar Cover Shoot",
-      description: "West Bengal Calendar Cover Model 2021",
-      image: "/IMG-20250818-WA0131.jpg",
+      image: "/emcee-2.jpg",
       type: "image",
     },
     {
       id: 7,
       category: "pagent grooming",
-      title: "ISL Sports Presentation",
-      description: "Sports presenter at Indian Super League",
       image: "/IMG-20250818-WA0084.jpg",
       type: "image",
     },
     {
       id: 8,
-      category: "brand Collaborations",
-      title: "Beauty Brand Partnership",
-      description: "Collaboration with premium beauty brand",
+      category: "Personality Development Sessions",
       image: "/IMG-20250818-WA0126.jpg",
+      type: "image",
+    },
+    {
+      id: 9,
+      category: "Emcee",
+      image: "/emcee-3.jpg",
       type: "image",
     },
   ]
@@ -128,8 +118,8 @@ export default function PortfolioPage() {
                 <div className="relative aspect-[4/5] overflow-hidden rounded-lg shadow-lg">
                   <Image
                     src={item.image || "/placeholder.svg"}
-                    alt={item.title}
                     fill
+                    alt="Portfolio item"
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                   {item.type === "video" && (
@@ -140,10 +130,12 @@ export default function PortfolioPage() {
                     </div>
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  {/*
                   <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 sm:opacity-0 sm:group-hover:opacity-100 xs:opacity-100 xs:static xs:bg-black/60 xs:rounded-b-lg xs:p-2">
                     <h3 className="font-playfair text-xl font-bold mb-1 xs:text-base xs:mb-0">{item.title}</h3>
                     <p className="text-sm opacity-90 xs:opacity-100">{item.description}</p>
                   </div>
+                  */}
                 </div>
               </div>
             ))}
