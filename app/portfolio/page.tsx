@@ -14,7 +14,7 @@ export default function PortfolioPage() {
     { id: "Emcee", label: "Emcee" },
     { id: "Event Appearances", label: "Event Appearances" },
     { id: "Personality Development Sessions", label: "Personality Development Sessions" },
-    { id: "Pagent grooming", label: "Pagent grooming" },
+    { id: "Pageant grooming", label: "Pageant grooming" },
     { id: "brand Collaborations", label: "brand   Collaborations" },
   ]
 
@@ -22,25 +22,25 @@ export default function PortfolioPage() {
     {
       id: 1,
       category: "brand collaborations",
-      image: "/collab-1.jpg",
+      image: "/collab-1.jpeg",
       type: "image",
     },
     {
       id: 2,
-      category: "brand Collaborations",
-      image: "/collab-2.jpg",
+      category: "Event Appearances",
+      image: "/event-4.jpg",
       type: "image",
     },
     {
       id: 3,
       category: "brand Collaborations",
-      image: "/collab-3.jpg",
+      image: "/collab-3.jpeg",
       type: "image",
     },
     {
       id: 4,
       category: "brand collaborations",
-      image: "/collab-5.jpg",
+      image: "/collab-4.jpeg",
       type: "image",
     },
     {
@@ -57,14 +57,14 @@ export default function PortfolioPage() {
     },
     {
       id: 7,
-      category: "pagent grooming",
-      image: "/IMG-20250818-WA0084.jpg",
+      category: "Pageant grooming",
+      image: "/groom-1.jpg",
       type: "image",
     },
     {
       id: 8,
       category: "Personality Development Sessions",
-      image: "/IMG-20250818-WA0126.jpg",
+      image: "/image-coach-1.jpg",
       type: "image",
     },
     {
@@ -73,6 +73,55 @@ export default function PortfolioPage() {
       image: "/emcee-3.jpg",
       type: "image",
     },
+    {
+      id: 10,
+      category: "Pageant grooming",
+      image: "/groom-2.jpg",
+      type: "image",
+    },
+    {
+      id: 11,
+      category: "Personality Development Sessions",
+      image: "/image-coach-2.jpg",
+      type: "image",
+    },
+    {
+      id: 12,
+      category: "Modelling",
+      image: "/model-1.jpeg",
+      type: "image",
+    },
+    {
+      id: 13,
+      category: "Modelling",  
+      image: "/model-2.jpeg",
+      type: "image",
+    },
+    {
+      id: 14,
+      category: "Modelling",
+      image: "/model-3.jpeg",
+      type: "image",
+    },
+    {
+      id: 15, 
+      category: "Event Appearances",
+      image: "/event-1.jpg",
+      type: "image",
+    },
+    {
+      id: 16,
+      category: "Event Appearances",
+      image: "/event-2.jpeg",
+      type: "image",
+    },
+    {
+      id: 17,
+      category: "Event Appearances",
+      image: "/event-3.jpg",
+      type: "image",
+    },
+    
   ]
 
   const filteredItems =

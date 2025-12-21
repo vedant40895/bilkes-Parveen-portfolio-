@@ -23,15 +23,15 @@ export default function GalleryPage() {
   ]
 
   const galleryImages = [
-    {
-      id: 1,
-      src: "/reel-1.mp4",
-      thumbnail: "/thubmnail-1.png",
-      category: "modeling",
-      title: "Fashion Editorial",
-      description: "High-fashion editorial shoot",
-      isVideo: true,
-    },
+    // {
+    //   id: 1,
+    //   src: "/reel-1.mp4",
+    //   thumbnail: "/thubmnail-1.png",
+    //   category: "modeling",
+    //   title: "Fashion Editorial",
+    //   description: "High-fashion editorial shoot",
+    //   isVideo: true,
+    // },
     {
       id: 2,
       src: "/IMG-20250818-WA0007.jpg",
@@ -39,13 +39,13 @@ export default function GalleryPage() {
       title: "Lifestyle Portrait",
       description: "Hosting corporate conference",
     },
-    {
-      id: 3,
-      src: "/IMG-20250818-WA0084.jpg",
-      category: "professional",
-      title: "Ethnic Portrait",
-      description: "Professional headshot session",
-    },
+    // {
+    //   id: 3,
+    //   src: "/IMG-20250818-WA0084.jpg",
+    //   category: "professional",
+    //   title: "Ethnic Portrait",
+    //   description: "Professional headshot session",
+    // },
     {
       id: 4,
       src: "/IMG-20250818-WA0009.jpg",
@@ -60,13 +60,13 @@ export default function GalleryPage() {
       title: "Behind the Scenes",
       description: "Candid moments during shoot",
     },
-    {
-      id: 6,
-      src: "/IMG-20250818-WA0012.jpg",
-      category: "events",
-      title: "Corporate Events",
-      description: "Hosting corporate conference",
-    },
+    // {
+    //   id: 6,
+    //   src: "/IMG-20250818-WA0012.jpg",
+    //   category: "events",
+    //   title: "Corporate Events",
+    //   description: "Hosting corporate conference",
+    // },
     {
       id: 7,
       src: "/IMG-20250818-WA0185.jpg",
@@ -74,20 +74,20 @@ export default function GalleryPage() {
       title: "Bold & Elegance",
       description: "Style & grace in every frame",
     },
-    {
-      id: 8,
-      src: "/IMG-20250818-WA0115.jpg",
-      category: "modeling",
-      title: "Brand Campaign",
-      description: "Luxury brand collaboration",
-    },
-    {
-      id: 9,
-      src: "/IMG-20250818-WA0173.jpg",
-      category: "professional",
-      title: "Speaking Event",
-      description: "Keynote speaking engagement",
-    },
+    // {
+    //   id: 8,
+    //   src: "/IMG-20250818-WA0115.jpg",
+    //   category: "modeling",
+    //   title: "Brand Campaign",
+    //   description: "Luxury brand collaboration",
+    // },
+    // {
+    //   id: 9,
+    //   src: "/IMG-20250818-WA0173.jpg",
+    //   category: "professional",
+    //   title: "Speaking Event",
+    //   description: "Keynote speaking engagement",
+    // },
     {
       id: 10,
       src: "/IMG-20250818-WA0018.jpg",
@@ -95,13 +95,13 @@ export default function GalleryPage() {
       title: "Preparation",
       description: "Getting memorable shoot",
     },
-    {
-      id: 11,
-      src: "/IMG-20250818-WA0020.jpg",
-      category: "lifestyle",
-      title: "Casual Moments",
-      description: "Relaxed lifestyle shots",
-    },
+    // {
+    //   id: 11,
+    //   src: "/IMG-20250818-WA0020.jpg",
+    //   category: "lifestyle",
+    //   title: "Casual Moments",
+    //   description: "Relaxed lifestyle shots",
+    // },
     {
       id: 12,
       src: "/IMG-20250818-WA0008.jpg",
@@ -181,6 +181,7 @@ export default function GalleryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
             {filteredImages.map((image) => {
+              // @ts-expect-error: isVideo may not exist on all images
               const isVideo = image.isVideo || image.src.endsWith(".mp4")
 
               return (
@@ -205,6 +206,7 @@ export default function GalleryPage() {
                         }}
                         src={image.src}
                         controls
+                        // @ts-expect-error: thumbnail may not exist on all images
                         poster={image.thumbnail}
                         className="w-full h-auto object-cover rounded-lg"
                         onPlay={() => setSelectedId(image.id)}
