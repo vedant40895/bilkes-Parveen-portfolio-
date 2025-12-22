@@ -10,18 +10,19 @@ export default function PortfolioPage() {
   const [lightboxImage, setLightboxImage] = useState<string | null>(null)
 
   const categories = [
+    { id: "all", label: "All" },
     { id: "Modelling", label: "Modelling" },
     { id: "Emcee", label: "Emcee" },
     { id: "Event Appearances", label: "Event Appearances" },
     { id: "Personality Development Sessions", label: "Personality Development Sessions" },
     { id: "Pageant grooming", label: "Pageant grooming" },
-    { id: "brand Collaborations", label: "brand   Collaborations" },
+    { id: "brand Collaborations", label: "Brand Shoots & Endorsements" },
   ]
 
   const portfolioItems = [
     {
       id: 1,
-      category: "brand collaborations",
+      category: "brand Collaborations",
       image: "/collab-1.jpeg",
       type: "image",
     },
@@ -39,7 +40,7 @@ export default function PortfolioPage() {
     },
     {
       id: 4,
-      category: "brand collaborations",
+      category: "brand Collaborations",
       image: "/collab-4.jpeg",
       type: "image",
     },
@@ -121,7 +122,78 @@ export default function PortfolioPage() {
       image: "/event-3.jpg",
       type: "image",
     },
-    
+    {
+      id: 18,
+      category: "Event Appearances",
+      image: "/event-5.jpg",
+      type: "image",
+    },
+    {
+      id: 19,
+      category: "Event Appearances",
+      image: "/event-6.jpg",
+      type: "image",
+    },
+    { 
+      id: 20,
+      category: "Event Appearances",
+      image: "/event-7.jpg",
+      type: "image",
+    },
+    {
+      id: 21,
+      category: "Pageant grooming",
+      image: "/groom-3.jpg",
+      type: "image",
+    },
+    {
+      id: 22,
+      category: "Pageant grooming",
+      image: "/groom-4.jpg",
+      type: "image",
+    },
+    {
+      id: 23,
+      category: "Pageant grooming",
+      image: "/groom-5.jpg",
+      type: "image",
+    },
+    {
+      id: 24,
+      category: "brand Collaborations",
+      image: "/collab-5.jpg",
+      type: "image",
+    },
+    {
+      id: 25,
+      category: "Modelling",
+      image: "/model-4.jpg",
+      type: "image",
+    },
+    {
+      id: 26,
+      category: "Modelling",
+      image: "/model-5.jpg",
+      type: "image",
+    },
+    {
+      id: 27,
+      category: "Personality Development Sessions",
+      image: "/image-coach-3.jpg",
+      type: "image",
+    },
+    {
+      id: 28,
+      category: "Personality Development Sessions",
+      image: "/image-coach-4.jpg",
+      type: "image",
+    },
+    {
+      id: 29,
+      category: "Personality Development Sessions",
+      image: "/image-coach-5.jpg",
+      type: "image",
+    }
   ]
 
   const filteredItems =
