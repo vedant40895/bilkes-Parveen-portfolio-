@@ -94,7 +94,7 @@ export default function PortfolioPage() {
     },
     {
       id: 13,
-      category: "Modelling",  
+      category: "Modelling",
       image: "/model-2.jpeg",
       type: "image",
     },
@@ -105,7 +105,7 @@ export default function PortfolioPage() {
       type: "image",
     },
     {
-      id: 15, 
+      id: 15,
       category: "Event Appearances",
       image: "/event-1.jpg",
       type: "image",
@@ -134,7 +134,7 @@ export default function PortfolioPage() {
       image: "/event-6.jpg",
       type: "image",
     },
-    { 
+    {
       id: 20,
       category: "Event Appearances",
       image: "/event-7.jpg",
@@ -192,6 +192,54 @@ export default function PortfolioPage() {
       id: 29,
       category: "Personality Development Sessions",
       image: "/image-coach-5.jpg",
+      type: "image",
+    },
+    {
+      id: 30,
+      category: "brand Collaborations",
+      image: "/collab-6.jpeg",
+      type: "image",
+    },
+    {
+      id: 31,
+      category: "brand Collaborations",
+      image: "/minu.jpg",
+      type: "image",
+    },
+    {
+      id: 32,
+      category: "brand Collaborations",
+      image: "/collab-7.jpeg",
+      type: "image",
+    },
+    {
+      id: 33,
+      category: "brand Collaborations",
+      image: "/collab-8.jpeg",
+      type: "image",
+    },
+    {
+      id: 34,
+      category: "brand Collaborations",
+      image: "/collab-9.jpeg",
+      type: "image",
+    },
+    {
+      id: 35,
+      category: "Emcee",
+      image: "/emcee-4.jpeg",
+      type: "image",
+    },
+    {
+      id: 36,
+      category: "Emcee",
+      image: "/emcee-5.jpeg",
+      type: "image",
+    },
+    {
+      id: 37,
+      category: "Emcee",
+      image: "/emcee-6.jpeg",
       type: "image",
     }
   ]
