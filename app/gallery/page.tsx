@@ -75,28 +75,33 @@ export default function GalleryPage() {
     },
     {
       id: 16,
-      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.16 PM (2).jpeg",
+      src: "/gallery/WhatsApp Image 2025-12-23 at 1.07.30 PM.jpeg",
     },
     {
       id: 17,
-      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.16 PM.jpeg",
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.16 PM (2).jpeg",
     },
     {
       id: 18,
-      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.17 PM (1).jpeg",
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.16 PM.jpeg",
     },
     {
       id: 19,
-      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.17 PM.jpeg",
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.17 PM (1).jpeg",
     },
     {
       id: 20,
-      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.18 PM (1).jpeg",
+      src: "/gallery/WhatsApp Image 2025-12-23 at 1.13.23 PM.jpeg",
     },
     {
       id: 21,
-      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.18 PM.jpeg",
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.17 PM.jpeg",
     },
+    {
+      id: 22,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.18 PM (1).jpeg",
+    },
+    
   ]
 
   const handleVideoClick = (id: number) => {
