@@ -1,5 +1,5 @@
-import Image from "next/image"
-import { Award, Star, Trophy, Crown } from "lucide-react"
+import Image from "next/image";
+import { Award, Star, Trophy, Crown } from "lucide-react";
 
 export default function AchievementsPage() {
   const achievements = [
@@ -44,8 +44,7 @@ export default function AchievementsPage() {
     {
       title: "News & Media",
       subtitle: "Featured on leading Media house BBC News",
-      description:
-        "Featured on International Media for their corporate shoots",
+      description: "Featured on International Media for their corporate shoots",
       image: "/achievement-5.jpg?height=600&width=800",
       icon: Award,
       category: "Media houses",
@@ -53,22 +52,25 @@ export default function AchievementsPage() {
     {
       title: "Icons of Kolkata",
       subtitle: "Featured as Iconic Personality of Kolkata",
-      description:"Recognized and featured as individuals who have made significant contributions to the city's culture.",
+      description:
+        "Recognized and featured as individuals who have made significant contributions to the city's culture.",
       image: "/achievement-6.jpeg?height=600&width=800",
       icon: Crown,
       category: "Recognition & Awards",
     },
-  ]
+  ];
 
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-r from-rose-gold to-royal-blue">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h1 className="font-playfair text-5xl md:text-6xl font-bold text-white mb-6">Achievements</h1>
+          <h1 className="font-playfair text-5xl md:text-6xl font-bold text-white mb-6">
+            Achievements
+          </h1>
           <p className="text-xl text-white/90 leading-relaxed">
-            A collection of milestones, recognitions, and accomplishments that define a journey of excellence across
-            multiple industries.
+            A collection of milestones, recognitions, and accomplishments that
+            define a journey of excellence across multiple industries.
           </p>
         </div>
       </section>
@@ -99,13 +101,21 @@ export default function AchievementsPage() {
                       {achievement.year}
                     </span> */}
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-700 mb-4">{achievement.subtitle}</h3>
-                  <p className="text-lg text-gray-600 leading-relaxed mb-6">{achievement.description}</p>
+                  <h3 className="text-xl font-semibold text-gray-700 mb-4">
+                    {achievement.subtitle}
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                    {achievement.description}
+                  </p>
                   <div className="flex items-center">
                     <div className="w-12 h-1 bg-royal-blue rounded-full"></div>
                   </div>
                 </div>
-                <div className={index % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""}>
+                <div
+                  className={
+                    index % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""
+                  }
+                >
                   <div className="relative">
                     <div className="aspect-[4/3] relative overflow-hidden rounded-lg shadow-2xl">
                       <Image
@@ -129,10 +139,12 @@ export default function AchievementsPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="font-playfair text-4xl md:text-5xl font-bold text-black mb-4">Recognition & Impact</h2>
+            <h2 className="font-playfair text-4xl md:text-5xl font-bold text-black mb-4">
+              Recognition & Impact
+            </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Beyond individual achievements, the impact extends to inspiring others and contributing to industry
-              growth.
+              Beyond individual achievements, the impact extends to inspiring
+              others and contributing to industry growth.
             </p>
           </div>
 
@@ -141,9 +153,12 @@ export default function AchievementsPage() {
               <div className="bg-royal-blue w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="h-8 w-8 text-white" />
               </div>
-              <h3 className="font-playfair text-xl font-bold mb-2">Industry Recognition</h3>
+              <h3 className="font-playfair text-xl font-bold mb-2">
+                Industry Recognition
+              </h3>
               <p className="text-gray-600">
-                Acknowledged for contributions to modeling, media, and entrepreneurship sectors.
+                Acknowledged for contributions to modeling, media, and
+                entrepreneurship sectors.
               </p>
             </div>
 
@@ -151,9 +166,12 @@ export default function AchievementsPage() {
               <div className="bg-rose-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Star className="h-8 w-8 text-white" />
               </div>
-              <h3 className="font-playfair text-xl font-bold mb-2">Inspiring Others</h3>
+              <h3 className="font-playfair text-xl font-bold mb-2">
+                Inspiring Others
+              </h3>
               <p className="text-gray-600">
-                Mentoring and coaching individuals to achieve their personal and professional goals.
+                Mentoring and coaching individuals to achieve their personal and
+                professional goals.
               </p>
             </div>
 
@@ -161,14 +179,17 @@ export default function AchievementsPage() {
               <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Trophy className="h-8 w-8 text-white" />
               </div>
-              <h3 className="font-playfair text-xl font-bold mb-2">Business Success</h3>
+              <h3 className="font-playfair text-xl font-bold mb-2">
+                Business Success
+              </h3>
               <p className="text-gray-600">
-                Building successful ventures and creating opportunities for growth and innovation.
+                Building successful ventures and creating opportunities for
+                growth and innovation.
               </p>
             </div>
           </div>
         </div>
       </section>
     </div>
-  )
+  );
 }

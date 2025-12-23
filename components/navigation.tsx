@@ -15,7 +15,7 @@ export function Navigation() {
     { href: "/achievements", label: "Achievements" },
     { href: "/csr", label: "CSR" },
     { href: "/media", label: "Media" },
-    { href: "/services", label: "Services" },
+    { href: "/brands", label: "Brands" },
     { href: "/gallery", label: "Gallery" },
   ]
 

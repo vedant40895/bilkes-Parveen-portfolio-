@@ -6,115 +6,98 @@ import { Button } from "@/components/ui/button"
 import { X } from "lucide-react"
 
 export default function GalleryPage() {
-  const [selectedCategory, setSelectedCategory] = useState("all")
   const [lightboxImage, setLightboxImage] = useState<string | null>(null)
   const [playingVideoId, setPlayingVideoId] = useState<number | null>(null)
   const [selectedId, setSelectedId] = useState<number | null>(null)
 
   const videoRefs = useRef<{ [key: number]: HTMLVideoElement | null }>({})
 
-  const categories = [
-    { id: "all", label: "All Photos" },
-    { id: "modeling", label: "Modeling" },
-    { id: "events", label: "Events" },
-    { id: "Glimpse", label: "Glimpse" },
-    { id: "professional", label: "Professional" },
-    { id: "lifestyle", label: "Lifestyle" },
-  ]
-
   const galleryImages = [
-    // {
-    //   id: 1,
-    //   src: "/reel-1.mp4",
-    //   thumbnail: "/thubmnail-1.png",
-    //   category: "modeling",
-    //   title: "Fashion Editorial",
-    //   description: "High-fashion editorial shoot",
-    //   isVideo: true,
-    // },
+    {
+      id: 1,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.57.16 PM.jpeg",
+    },
     {
       id: 2,
-      src: "/IMG-20250818-WA0007.jpg",
-      category: "lifestyle",
-      title: "Lifestyle Portrait",
-      description: "Hosting corporate conference",
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.57.18 PM (1).jpeg",
     },
-    // {
-    //   id: 3,
-    //   src: "/IMG-20250818-WA0084.jpg",
-    //   category: "professional",
-    //   title: "Ethnic Portrait",
-    //   description: "Professional headshot session",
-    // },
+    {
+      id: 3,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.57.18 PM.jpeg",
+    },
     {
       id: 4,
-      src: "/IMG-20250818-WA0009.jpg",
-      category: "modeling",
-      title: "Calendar Shoot",
-      description: "West Bengal Calendar 2021",
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.57.19 PM.jpeg",
     },
     {
       id: 5,
-      src: "/IMG-20250818-WA0097.jpg",
-      category: "Glimpse",
-      title: "Behind the Scenes",
-      description: "Candid moments during shoot",
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.57.20 PM (1).jpeg",
     },
-    // {
-    //   id: 6,
-    //   src: "/IMG-20250818-WA0012.jpg",
-    //   category: "events",
-    //   title: "Corporate Events",
-    //   description: "Hosting corporate conference",
-    // },
+    {
+      id: 6,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.57.20 PM.jpeg",
+    },
     {
       id: 7,
-      src: "/IMG-20250818-WA0185.jpg",
-      category: "Glimpse",
-      title: "Bold & Elegance",
-      description: "Style & grace in every frame",
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.57.21 PM (1).jpeg",
     },
-    // {
-    //   id: 8,
-    //   src: "/IMG-20250818-WA0115.jpg",
-    //   category: "modeling",
-    //   title: "Brand Campaign",
-    //   description: "Luxury brand collaboration",
-    // },
-    // {
-    //   id: 9,
-    //   src: "/IMG-20250818-WA0173.jpg",
-    //   category: "professional",
-    //   title: "Speaking Event",
-    //   description: "Keynote speaking engagement",
-    // },
+    {
+      id: 8,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.57.21 PM.jpeg",
+    },
+    {
+      id: 9,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.59.55 PM (1).jpeg",
+    },
     {
       id: 10,
-      src: "/IMG-20250818-WA0018.jpg",
-      category: "Glimpse",
-      title: "Preparation",
-      description: "Getting memorable shoot",
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.59.55 PM.jpeg",
     },
-    // {
-    //   id: 11,
-    //   src: "/IMG-20250818-WA0020.jpg",
-    //   category: "lifestyle",
-    //   title: "Casual Moments",
-    //   description: "Relaxed lifestyle shots",
-    // },
+    {
+      id: 11,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 8.59.56 PM.jpeg",
+    },
     {
       id: 12,
-      src: "/IMG-20250818-WA0008.jpg",
-      category: "modeling",
-      title: "Fashion Week",
-      description: "Runway and fashion week",
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.14 PM (1).jpeg",
+    },
+    {
+      id: 13,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.14 PM (2).jpeg",
+    },
+    {
+      id: 14,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.14 PM.jpeg",
+    },
+    {
+      id: 15,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.16 PM (1).jpeg",
+    },
+    {
+      id: 16,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.16 PM (2).jpeg",
+    },
+    {
+      id: 17,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.16 PM.jpeg",
+    },
+    {
+      id: 18,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.17 PM (1).jpeg",
+    },
+    {
+      id: 19,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.17 PM.jpeg",
+    },
+    {
+      id: 20,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.18 PM (1).jpeg",
+    },
+    {
+      id: 21,
+      src: "/gallery/WhatsApp Image 2025-12-22 at 9.02.18 PM.jpeg",
     },
   ]
-
-  const filteredImages =
-    selectedCategory === "all"
-      ? galleryImages
-      : galleryImages.filter((image) => image.category === selectedCategory)
 
   const handleVideoClick = (id: number) => {
     const currentVideo = videoRefs.current[id]
@@ -154,33 +137,11 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      {/* Filter Buttons */}
-      <section className="py-12 bg-white border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-4">
-            {categories.map((category) => (
-              <Button
-                key={category.id}
-                variant={selectedCategory === category.id ? "default" : "outline"}
-                onClick={() => {
-                  setSelectedCategory(category.id)
-                  setPlayingVideoId(null)
-                  setSelectedId(null)
-                }}
-                className={selectedCategory === category.id ? "bg-royal-blue hover:bg-royal-blue/90" : ""}
-              >
-                {category.label}
-              </Button>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Gallery */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
-            {filteredImages.map((image) => {
+            {galleryImages.map((image) => {
               // @ts-expect-error: isVideo may not exist on all images
               const isVideo = image.isVideo || image.src.endsWith(".mp4")
 
@@ -219,18 +180,11 @@ export default function GalleryPage() {
                     ) : (
                       <Image
                         src={image.src || "/IMG-20250818-WA0007.jpg"}
-                        alt={image.title}
+                        alt="Gallery image"
                         width={400}
                         height={600}
                         className="w-full h-auto object-cover"
                       />
-                    )}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                    {selectedId !== image.id && (
-                      <div className="absolute bottom-4 left-4 right-4 text-white transition-opacity duration-300">
-                        <h3 className="font-playfair text-lg font-bold mb-1">{image.title}</h3>
-                        <p className="text-sm opacity-90">{image.description}</p>
-                      </div>
                     )}
                   </div>
                 </div>
@@ -242,18 +196,21 @@ export default function GalleryPage() {
 
       {/* Lightbox */}
       {lightboxImage && (
-        <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
-          <div className="relative max-w-4xl max-h-full">
+        <div 
+          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
+          onClick={() => setLightboxImage(null)}
+        >
+          <div className="relative max-w-4xl max-h-full" onClick={(e) => e.stopPropagation()}>
             <Button
               variant="outline"
               size="icon"
-              className="absolute top-4 right-4 bg-white/10 border-white/20 text-white hover:bg-white/20"
+              className="absolute -top-12 right-0 bg-white hover:bg-gray-200 border-white text-black shadow-lg"
               onClick={() => setLightboxImage(null)}
             >
               <X className="h-6 w-6" />
             </Button>
             <Image
-              src={lightboxImage || "/IMG-20250818-WA0007.jpg"}
+              src={lightboxImage}
               alt="Gallery image"
               width={800}
               height={1000}
