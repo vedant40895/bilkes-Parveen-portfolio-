@@ -251,7 +251,7 @@ export default function BrandsPage() {
               <div className="text-lg opacity-90">Successful Projects</div>
             </Card>
             <Card className="p-8 text-center bg-gradient-to-br from-amber-500 to-orange-500 text-white">
-              <div className="text-5xl font-bold mb-2">5+</div>
+              <div className="text-5xl font-bold mb-2">6+</div>
               <div className="text-lg opacity-90">Years of Experience</div>
             </Card>
           </div>
