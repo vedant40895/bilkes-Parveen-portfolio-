@@ -1,4 +1,5 @@
 import type React from "react"
+import Link from "next/link"
 import type { Metadata } from "next"
 import { Playfair_Display, Inter } from "next/font/google"
 import "./globals.css"
@@ -67,6 +68,15 @@ export default function RootLayout({
         <Navigation />
         <main>{children}</main>
         <Footer />
+        {/* Enhanced Floating Contact Button */}
+        <Link
+          href="/contact"
+          className="fixed bottom-8 right-8 z-50 px-7 py-3 bg-gradient-to-br from-violet-700 via-fuchsia-500 to-pink-400 hover:from-violet-800 hover:to-pink-500 text-white font-bold rounded-full shadow-2xl shadow-fuchsia-300/40 border-2 border-white/80 backdrop-blur-md transition-all duration-200 ease-in-out flex items-center gap-3 group ring-0 hover:ring-4 hover:ring-fuchsia-300/40 focus:outline-none focus:ring-4 focus:ring-fuchsia-400/60"
+          aria-label="Contact"
+        >
+          <svg className="w-6 h-6 text-white group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" d="M22 16.92v3a2 2 0 01-2.18 2A19.72 19.72 0 013 5.18 2 2 0 015 3h3a2 2 0 012 1.72c.13 1.05.37 2.07.72 3.06a2 2 0 01-.45 2.11l-1.27 1.27a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.99.35 2.01.59 3.06.72A2 2 0 0122 16.92z"></path></svg>
+          <span className="tracking-wide text-base">Contact</span>
+        </Link>
       </body>
     </html>
   )
