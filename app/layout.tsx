@@ -2,9 +2,11 @@ import type React from "react"
 import Link from "next/link"
 import type { Metadata } from "next"
 import { Playfair_Display, Inter } from "next/font/google"
+// @ts-ignore: allow side-effect import of global CSS without type declarations
 import "./globals.css"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { Analytics } from "@vercel/analytics/next"
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -68,6 +70,7 @@ export default function RootLayout({
         <Navigation />
         <main>{children}</main>
         <Footer />
+        <Analytics />
         {/* Enhanced Floating Contact Button */}
         <Link
           href="/contact"
